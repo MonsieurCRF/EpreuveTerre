@@ -23,4 +23,5 @@ else if (B < A && A < C) { console.log(A); }
 else if (B < C && C < A) { console.log(C); }
 else if (C < A && A < B) { console.log(A); }
 else if (C < B && B < A) { console.log(B); }
+else if (A == B && A == C && B == C){console.log("erreur.");}
 else console.log("erreur");

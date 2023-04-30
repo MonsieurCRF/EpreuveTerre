@@ -17,9 +17,9 @@ let triée = true
 
 
 for (i = 1; i < stringEntiers.length; i++) {
-    if (stringEntiers[i] < stringEntiers[i - 1]) {
+    if (stringEntiers[i] < stringEntiers[i - 1]) {//si le chiffre actuel dans la boucle est inferieur au precedents alors false
         triée = false
-        break;
+        break; // permet de mettre un terme a la boucle for si la liste d'entier n'est pas triée
     }
 
 }

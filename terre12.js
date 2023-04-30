@@ -8,7 +8,7 @@ $> ruby exo.rb 11:40PM
 Attention : midi et minuit.
 */
 let ValeurI = process.argv[2]
-let ValeurF = ""
+
 
 let h12_00 = parseInt(ValeurI.slice(':').slice(0, 2))
 let m12_00 = ValeurI.slice(':').slice(3, 5)

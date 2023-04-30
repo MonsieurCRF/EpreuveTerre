@@ -22,9 +22,12 @@ const a = process.argv[2]
 
 
 
-
+if (a===undefined){console.log("erreur.");}
+else if (process.argv.length>3){console.log("erreur.");}
+else if (isNaN(a)===false){console.log("erreur.");}
+else {
 let count = 0;
 for (let i = 0; i < a.length; i++) {
   count++; //a chaque boucle effectuer la fonction count prend +1 
 }
-console.log("Le nombre de caractères dans la chaîne est : " + count);
+console.log("Le nombre de caractères dans la chaîne est : " + count)}

@@ -13,7 +13,7 @@ Attention : je compte sur vous pour gérer les potentielles erreurs d’argument
 const a = process.argv[2];
 const b = process.argv[3];
 
-if (!a || !b) {
+if (a===undefined || b===undefined) {
   console.log('Veuillez fournir deux nombres en arguments.'); // est ce quil y a (a) et (b)
 } else if (isNaN(a) || isNaN(b)) {
   console.log('Les arguments doivent être des nombres.');//ce sont bien des chiffres ?
